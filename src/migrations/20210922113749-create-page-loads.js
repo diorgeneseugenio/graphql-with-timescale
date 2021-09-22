@@ -12,7 +12,8 @@ module.exports = {
         type: Sequelize.STRING
       },
       time: {
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        primaryKey: true
       },
       createdAt: {
         allowNull: false,
