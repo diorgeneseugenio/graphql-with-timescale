@@ -1,13 +1,10 @@
-import { Sequelize } from 'sequelize'
+const { ApolloServer } = require("apollo-server");
 
-const sequelize = new Sequelize('postgres://postgres:admin@localhost:5432/postgres',
-    {
-        dialect: 'postgres',
-        protocol: 'postgres'
-    })
+const { resolvers } = require("./resolvers");
+const { typeDefs } = require("./schema");
 
-sequelize.authenticate().then(() => {
-    console.log('Connection has been established successfully.');
-}).catch((err: any) => {
-    console.error('Unable to connect to the database:', err);
-});    
+const server = new ApolloServer({ typeDefs, resolvers });
+
+server.listen().then((param: any) => {
+  console.log(`🚀  Server ready at ${param.url}`);
+});

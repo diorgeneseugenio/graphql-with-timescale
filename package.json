@@ -25,6 +25,8 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.5",
