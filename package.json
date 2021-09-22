@@ -1,0 +1,19 @@
+{
+  "name": "graphql-with-timescale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diorgeneseugenio/graphql-with-timescale.git"
+  },
+  "author": "Diórgenes Eugênio da Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diorgeneseugenio/graphql-with-timescale/issues"
+  },
+  "homepage": "https://github.com/diorgeneseugenio/graphql-with-timescale#readme"
+}
