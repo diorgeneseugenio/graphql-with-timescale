@@ -1,4 +1,4 @@
-const db = require('../db')
+const db = require('../../db')
 
 const { GraphQLScalarType } = require('graphql');
 const { Kind } = require('graphql/language');
