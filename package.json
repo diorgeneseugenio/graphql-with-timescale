@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --loader ts-node/esm ./index.ts"
+    "start": "node --loader ts-node/esm ./src/index.ts"
   },
   "repository": {
     "type": "git",
